@@ -6,7 +6,7 @@ LONG_DESCRIPTION = ("First-class Postgre feature support for the Django ORM."
 
 setup(
     name='django-postgres-pebble',
-    version='0.0.3',
+    version='0.0.4',
     description="First-class Postgres feature support for the Django ORM.",
     long_description=LONG_DESCRIPTION,
     author='Scott Walton',
@@ -15,6 +15,5 @@ setup(
     packages=find_packages(),
     install_requires=[
         'bitstring',
-        'Django>=1.3',
     ],
 )
